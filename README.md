@@ -56,11 +56,11 @@ npm run start:ssr
 
 
 ## 🎨 **Демо**
-[🔗 Переглянути live-демо](https://gif-search-demo.vercel.app/)
+https://denysdubas.github.io/Angular-SSR-GIF-Search-App/
 
 
-## 📝 **Автори**
-👨‍💻 [Ваше Ім'я](https://github.com/your-profile)
+## 📝 **Автор**
+👨‍💻 https://github.com/DenysDubas
 
 
 ## 📜 **Ліцензія**
