@@ -1,59 +1,68 @@
-# GifSearchApp
+# 🎨 GIF Search App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+🚀 **GIF Search App** - це сучасний веб-застосунок для пошуку GIF-ок за допомогою **Giphy API**.
+Використовує **Angular, SSR (Server-Side Rendering) і Express** для швидкої та оптимізованої роботи. 💡
 
-## Development server
+[GIF Search App](https://user-images.githubusercontent.com/demo.gif)
 
-To start a local development server, run:
 
-```bash
-ng serve
-```
+## 🔧 **Використані технології**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+| Технологія          | Версія |
+|---------------------|--------|
+| Angular            | 19.2.1  |
+| Angular SSR        | 19.2.1  |
+| Express.js         | 4.18.2  |
+| TypeScript         | ^5.x    |
+| RxJS               | 7.x     |
+| Vite               | ^5.x    |
+| Tailwind CSS       | ^3.x    |
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎬 **Функціонал**
+✅ Пошук GIF-ок через API Giphy
+✅ Відображення результатів у сітці
+✅ Деталі GIF з анімацією "фліп-картки"
+✅ Завантаження GIF-файлів
+✅ Копіювання посилання на GIF
+✅ SSR для швидкого завантаження сторінок 🚀
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📦 **Налаштування та запуск**
 
-```bash
-ng generate --help
-```
+### 1️⃣ **Клонування репозиторію**
+git clone https://github.com/your-repo/gif-search-app.git
+cd gif-search-app
 
-## Building
+### 2️⃣ **Встановлення залежностей**
+npm install
 
-To build the project run:
+### 3️⃣ **Запуск у режимі розробки**
+npm run dev:ssr
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 4️⃣ **Збірка та продакшн-запуск**
+npm run build:ssr
+npm run start:ssr
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 🛠 **Конфігурація API**
+1. Зареєструйтесь на [Giphy Developers](https://developers.giphy.com/).
+2. Отримайте API-ключ.
+3. Додайте його в `.env` файл:
+   ```env
+   GIPHY_API_KEY=your_api_key_here
+   ```
 
-```bash
-ng test
-```
 
-## Running end-to-end tests
+## 🎨 **Демо**
+[🔗 Переглянути live-демо](https://gif-search-demo.vercel.app/)
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
-```
+## 📝 **Автори**
+👨‍💻 [Ваше Ім'я](https://github.com/your-profile)
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+## 📜 **Ліцензія**
+📝 Цей проєкт має ліцензію **MIT**. Ви можете вільно його використовувати та модифікувати. 🚀
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

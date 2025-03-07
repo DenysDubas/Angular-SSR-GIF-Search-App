@@ -1,0 +1,6 @@
+<div class="gifts-search-container">
+  <input [(ngModel)]="query" (input)="searchGifs()" placeholder="Search GIFs" />
+  <div *ngIf="gifs$ | async as gifs">
+    <app-gif-list [gifs]="gifs" (gifSelected)="showDetails($event)"></app-gif-list>
+  </div>
+</div>

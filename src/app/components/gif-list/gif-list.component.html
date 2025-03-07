@@ -1,0 +1,9 @@
+<div class="gif-grid">
+  <div *ngFor="let gif of gifs" class="gif-item">
+    <app-gif-detail
+      [gif]="gif"
+      [flipped]="false"
+      (click)="selectedGif = null">
+    </app-gif-detail>
+  </div>
+</div>

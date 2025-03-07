@@ -1,0 +1,17 @@
+<div class="selected-card-container">
+  <div class="flip-container" [class.flipped]="flipped" (click)="toggleFlip()">
+    <div class="flipper">
+      <div class="front">
+        <img [src]="gif?.images?.original?.url || ''" [alt]="gif?.title || 'GIF'" />
+      </div>
+      <div class="back">
+        <h2>{{ gif?.title }}</h2>
+        <p>Author: {{ gif?.username || 'Unknown' }}</p>
+        <div class="buttons-row">
+          <button (click)="downloadGif(gif); $event.stopPropagation()">Download</button>
+          <button (click)="copyLink(gif); $event.stopPropagation()">Copy Link</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
