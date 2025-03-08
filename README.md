@@ -3,7 +3,7 @@
 🚀 **GIF Search App** - це сучасний веб-застосунок для пошуку GIF-ок за допомогою **Giphy API**.
 Використовує **Angular, SSR (Server-Side Rendering) і Express** для швидкої та оптимізованої роботи. 💡
 
-[GIF Search App](https://user-images.githubusercontent.com/demo.gif)
+[GIF Search App](https://gif-search-f02oqtymp-denysdubas-projects.vercel.app/)
 
 
 ## 🔧 **Використані технології**
@@ -56,7 +56,7 @@ npm run start:ssr
 
 
 ## 🎨 **Демо**
-https://denysdubas.github.io/Angular-SSR-GIF-Search-App/
+https://gif-search-f02oqtymp-denysdubas-projects.vercel.app/
 
 
 ## 📝 **Автор**
